@@ -4,6 +4,7 @@ import Axios from "axios";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from "react-router-dom";
+
 const URL = "https://jsonplaceholder.typicode.com/todos";
 
 
@@ -40,7 +41,7 @@ export default function Update(props) {
   
   return (
     <div>
-      <form>
+      <div className="input">
         <input
           type="text"
           name="title"
@@ -49,10 +50,13 @@ export default function Update(props) {
           onChange={(e) => setTitle(e.target.value)}
         />
         <br />
-        <button className="add-task" type="submit" onClick={updateTask} >
+        <button 
+        className="add-task" 
+        type="submit" 
+        onClick={updateTask} >
           Update Task
         </button>
-      </form>
+      </div>
     </div>
   );
 }
