@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        {/*-------------To rout over the childs used React Routers */}
+        {/*-------------To rout over the childs used React Routers ------------------------*/}
         <Route exact path="/" element={<Read data={data} />} />
         <Route exact path="/create-task" element={<CreateTask />} />
         <Route exact path="/update/:id" element={<Update data={data} />} />
