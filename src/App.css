@@ -48,10 +48,7 @@ body {
   color: white;
 }
 
-
-
 /*----------------------------- Read component -------------------------------------*/
-
 .todo-item {
   display: flex;
   justify-content: space-between;
@@ -97,7 +94,7 @@ button:hover {
 }
 
 .add-task {
-  margin: 10px;
+  margin: 10px 10px 10px 0px;
   padding: 10px 20px;
   background-color: rgb(85, 85, 85);
   border-radius: 3px;
@@ -108,7 +105,6 @@ button:hover {
 .add-task a {
   color: white;
 }
-
 
 /*-------------------------------- create component --------------------------*/
 

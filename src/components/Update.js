@@ -37,7 +37,7 @@ export default function Update(props) {
       })
       .catch((err) => toast.error("Can not update..!"));
   }
-
+  
   return (
     <div>
       <form>
